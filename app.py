@@ -1,8 +1,8 @@
-from gui_checklist import ChecklistApp
+from gui import ChecklistApp
 
-def app():
+def main():
     app = ChecklistApp()
     app.run()
 
 if __name__ == "__main__":
-    app()
+    main()
